@@ -2,6 +2,7 @@ defs = {};
 // XXX ugly ----v
 function getJSON(nme, loc) {
     var x = new XMLHttpRequest();
+    alert(loc);
     x.open("GET", loc, true);
     x.send()
     x.onload = function() {
